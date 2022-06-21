@@ -7,6 +7,7 @@ Example:
     $ python app.py
 """
 import csv
+from multiprocessing.connection import answer_challenge
 import sys
 import fire
 import questionary
@@ -32,7 +33,7 @@ def load_bank_data():
         The bank data from the data rate sheet CSV file.
     """
 
-    csvpath = questionary.text("daily_rate_sheet.csv").ask()
+    csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
         sys.exit(f"Oops! Can't find this path: {csvpath}")
@@ -110,15 +111,30 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
+    # print msg for user to save file
     answer = questionary.text("Would you like to save this file?").ask()
+    print(qualifying_loans)
     message = "Please exit"
 
-    if answer == 'yes':
-        csvpath = Path("qualifying_result.csv")
-        with open(csvpath, 'w', newline='') as csvfile:
-            csvwriter = csv.writer(csvfile)
-            for row in save_qualifying_loans:
-                csvwriter.writerow(row.values())
+    ## Filter user if they quailify for a loan
+    if len(qualifying_loans) == 0:
+        print("Please try again or exit")
+    elif len(qualifying_loans) > 0:
+        # prompt user if they want to save the result
+        saveanswer = questionary.text("Would you like to save this result?")
+        if saveanswer == 'yes':
+            print("qualifying loan found, saving csv")
+            csvpath = Path("save_csv.csv")
+            with open(csvpath, 'w', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile)
+                for row in qualifying_loans:
+                    csvwriter.writerow(row.values())
+            filename = questionary.text("Where would you like to save the result?")
+            save_vsc = filename + ".csv"
+                #check to make sure filepath is valid
+
+    else:
+        print("Please try again.")
 
 
 def run():

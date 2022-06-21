@@ -1,16 +1,15 @@
-# Project Title
+## Loan Qualification
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+To help user and loan company finding the the right bank for their loan. This tool is user friendly, simple and easy to understand. User will also have the option to save the result for future reference.
 
----
 
-## Technologies
+# Technologies
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
 Python 3.7, Python Fire and Questionary, Anaconda 3, VS Code 1.67.2, Terminal, MacOS Monterey, GitHub
 
-## Installation Guide
+# Installation Guide
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
 
