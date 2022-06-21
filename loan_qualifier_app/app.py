@@ -103,6 +103,13 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
+def save_csv(csvpath, data):
+    header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
+    with open(csvpath, "w", newline="") as csvfile:
+            csvwriter = csv.writer(csvfile, delimiter=',')
+    if header:
+        csvwriter.writerow(header)
+    csvwriter.writerows(data)
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
@@ -111,32 +118,19 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    # print msg for user to save file
-    answer = questionary.text("Would you like to save this file?").ask()
-    print(qualifying_loans)
-    message = "Please exit"
 
-    ## Filter user if they quailify for a loan
-    if len(qualifying_loans) == 0:
-        print("Please try again or exit")
-    elif len(qualifying_loans) > 0:
-        # prompt user if they want to save the result
-        saveanswer = questionary.text("Would you like to save this result?")
-        if saveanswer == 'yes':
-            print("qualifying loan found, saving csv")
-            csvpath = Path("save_csv.csv")
-            with open(csvpath, 'w', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile)
-                for row in qualifying_loans:
-                    csvwriter.writerow(row.values())
-            filename = questionary.text("Where would you like to save the result?")
-            save_vsc = filename + ".csv"
-                #check to make sure filepath is valid
+    ## Filter message user if they quailify for a loan
+    def save_qualifying_loans(qualifying_loans):
 
-    else:
-        print("Please try again.")
+        if not qualifying_loans:
+            sys.exit("Sorry, there are no qualifying loans!")
+        saveFile = questionary.confirm("Would you like to save the qualifying loans?").ask()
+        if saveFile:
+                csvpath = questionary.text("Please enter a filepath for the saved data: (qualifying_loans.csv)"
+        ).ask()
+        save_csv(Path(csvpath), qualifying_loans)
 
-
+        
 def run():
     """The main function for running the script."""
 
