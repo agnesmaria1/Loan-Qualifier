@@ -8,7 +8,7 @@ Just after the title, introduce your project by describing attractively what the
 
 Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
----
+Python 3.7, Python Fire and Questionary, Anaconda 3, VS Code 1.67.2, Terminal, MacOS Monterey, GitHub
 
 ## Installation Guide
 
