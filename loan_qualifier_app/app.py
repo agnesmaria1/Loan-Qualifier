@@ -110,11 +110,15 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    csvpath = Path("qualifying_result.csv")
-    with open(csvpath, 'w', newline='') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        for save_qualifying_loans in :
-            csvwriter.writerow(row.values())
+    answer = questionary.text("Would you like to save this file?").ask()
+    message = "Please exit"
+
+    if answer == 'yes':
+        csvpath = Path("qualifying_result.csv")
+        with open(csvpath, 'w', newline='') as csvfile:
+            csvwriter = csv.writer(csvfile)
+            for row in save_qualifying_loans:
+                csvwriter.writerow(row.values())
 
 
 def run():
