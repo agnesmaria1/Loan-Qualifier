@@ -1,11 +1,8 @@
-## Loan Qualification
+# Loan Qualification
 
 To help user and loan company finding the the right bank for their loan. This tool is user friendly, simple and easy to understand. User will also have the option to save the result for future reference.
 
-
 # Technologies
-
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
 
 Python 3.7, Python Fire and Questionary, Anaconda 3, VS Code 1.67.2, Terminal, MacOS Monterey, GitHub
 
