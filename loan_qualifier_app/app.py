@@ -120,15 +120,14 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
 
     ## Filter message user if they quailify for a loan
-    def save_qualifying_loans(qualifying_loans):
+    #def save_qualifying_loans(qualifying_loans):
 
-        if not qualifying_loans:
-            sys.exit("Sorry, there are no qualifying loans!")
-        saveFile = questionary.confirm("Would you like to save the qualifying loans?").ask()
-        if saveFile:
-                csvpath = questionary.text("Please enter a filepath for the saved data: (qualifying_loans.csv)"
-        ).ask()
-        save_csv(Path(csvpath), qualifying_loans)
+    if not qualifying_loans:
+        sys.exit("Sorry, there are no qualifying loans!")
+    saveFile = questionary.confirm("Would you like to save the qualifying loans?").ask()
+    if saveFile:
+        csvpath = questionary.text("Please enter a filepath for the saved data: (qualifying_loans.csv)").ask()
+    save_csv(Path(csvpath), qualifying_loans)
 
         
 def run():
