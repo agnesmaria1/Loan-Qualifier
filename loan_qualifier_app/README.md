@@ -1,8 +1,8 @@
-# Loan Qualification
+# Loan Qualifier Application
 
+This is a python command-line interface application that allows users to see qualifying loans from lenders quickly and easily. The application works by taking in a `daily_rate_sheet` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans.
 
-This a command-line interface applicaiont to help loan qualifier finding the the right bank for their loan. This tool is user friendly, simple and easy to understand. User will also have the option to save the result for future reference.
-
+---
 
 # Technologies
 
@@ -11,6 +11,8 @@ This project leverages pythin 3.7 with the following packages:
 * [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
 
 * [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs.
+
+---
 
 # Installation Guide
 
@@ -39,6 +41,6 @@ This project is not possible without the help of my tutor Aarti, friend Tiania a
 
 ---
 
-## License
+# License
 
 

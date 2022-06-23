@@ -1,0 +1,270 @@
+   50  phyton
+   51  import numpy
+   52  clear
+   53  pip list
+   54  conda --help
+   55  clear
+   56  conda list
+   57  clear
+   58  export PROMPT="Agnes🐼 %1~ %# ";clear;
+   59  ls -al ~/.ssh
+   60  export PROMPT="Agnes🐼 %1~ %# ";clear;
+   61  export PROMPT="Agnes🐼 %1~ %# ";clear;
+   62  conda create -n dev phyton=3.7 anaconda
+   63  conda activate dev
+   64  echo ${SHELL}
+   65  conda init zsh
+   66  conda deactivate dev
+   67  conda deactivate
+   68  clear
+   69  export PROMPT="Agnes🐼 %1~ %# ";clear;
+   70  pwd
+   71  ls
+   72  cd Dekstop
+   73  cd Desktop
+   74  ls
+   75  mkdir FinTech-Workspace
+   76  ls
+   77  cd FinTech-Workspace
+   78  ls
+   79  cd ..
+   80  cd ~
+   81  pwd
+   82  export PROMPT="Agnes🐼 %1~ %# ";clear;
+   83  ls
+   84  cd Desktop
+   85  ls
+   86  ls
+   87  cd FinTech-Workspace
+   88  ls
+   89  cd Phyton_Project
+   90  ls
+   91  conda activate dev
+   92  phyton --version
+   93  python --version
+   94  code .
+   95  code .
+   96  python hello_phyton.py
+   97  conda deactivate
+   98  clear
+   99  pwd
+  100  cd..
+  101  cd ..
+  102  cd ..
+  103  cd ..
+  104  clear
+  105  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  106  code .
+  107  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  108  ls
+  109  python hello_variable_world.py
+  110  conda activate dev
+  111  python hello_variable_world.py
+  112  clear
+  113  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  114  /usr/bin/python3 /Users/Agnes/Downloads/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  115  /usr/bin/python3 /Users/Agnes/Downloads/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  116  /usr/bin/python3 /Users/Agnes/Downloads/01_Hello_Variable_World/Unsolved/hello_variable_world.py
+  117  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  118  conda activate dev
+  119  clear
+  120  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Listing_Assets/Unsolved/listing_assets.py
+  121  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Listing_Assets/Unsolved/listing_assets.py
+  122  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Listing_Assets/Unsolved/listing_assets.py
+  123  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Listing_Assets/Unsolved/listing_assets.py
+  124  clear
+  125  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  126  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  127  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  128  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  129  clear
+  130  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  131  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  132  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  133  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  134  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  135  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  136  clear
+  137  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Conditional_Statement/Unsolved/conditional_statement.py
+  138  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  139  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  140  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  141  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  142  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  143  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  144  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  145  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  146  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  147  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  148  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  149  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  150  clear
+  151  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_A_Definitive_Buy/Unsolved/a_definitive_buy.py
+  152  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_A_Definitive_Buy/Unsolved/a_definitive_buy.py
+  153  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  154  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  155  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  156  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  157  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Returned_Goods/Unsolved/returned_goods.py
+  158  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  159  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  160  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  161  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  162  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  163  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  164  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  165  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/hello_python.py
+  166  clear
+  167  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  168  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  169  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  170  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  171  clear
+  172  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  173  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  174  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  175  clear
+  176  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  177  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  178  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  179  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  180  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  181  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  182  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  183  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  184  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  185  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  186  clear
+  187  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  188  pip help
+  189  pip help install
+  190  clear
+  191  pip -V
+  192  conda activate dev
+  193  pip -V
+  194  pip freeze
+  195  pip install fire
+  196  pip install questionary
+  197  clear
+  198  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  199  clear
+  200  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  201  clear
+  202  conda activate dev
+  203  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  204  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/automated_equity_rounds.py
+  205  clear
+  206  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  207  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  208  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  209  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  210  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  211  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  212  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  213  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  214  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  215  clear
+  216  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  217  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  218  /usr/bin/python3 /Users/Agnes/Desktop/Github_Upload/Challenge/loan_analyzer.py
+  219  /usr/bin/python3 "/Users/Agnes/Downloads/Class_1_Activities 2/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py"
+  220  /usr/bin/python3 "/Users/Agnes/Downloads/Class_1_Activities 2/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py"
+  221  /usr/bin/python3 "/Users/Agnes/Downloads/Class_1_Activities 2/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py"
+  222  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  223  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  224  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  225  conda activate dev
+  226  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  227  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  228  clear
+  229  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  230  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/01_Ins_Variables/Solved/variables.py
+  231  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Solved/app.py
+  232  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Solved/app.py
+  233  clear
+  234  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Solved/app.py
+  235  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Solved/app.py
+  236  cd Solved
+  237  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/01_Loan_Qualifier_Financial_Calculations/Solved/app.py
+  238  python app.py
+  239  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  240  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  241  cd solved
+  242  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  243  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  244  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  245  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  246  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  247  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  248  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  249  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  250  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  251  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  252  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  253  clear
+  254  /usr/bin/python3 /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  255  /usr/bin/python3 "/Users/Agnes/Desktop/FinTech-Workspace/Starter_Code 2/loan_qualifier_app/app.py"
+  256  conda activate dev
+  257  pip fire
+  258  export PROMPT="Agnes🐼 %1~ %# ";clear;
+  259  conda activate dev
+  260  python app.py
+  261  pwd
+  262  /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  263  /Users/Agnes/Desktop/FinTech-Workspace/Python_Project/Practice/02_Loan_Qualifier_Filtering_Data/Solved/app.py
+  264  cd solved
+  265  clear
+  266  python app.py
+  267  cd "/Users/Agnes/Desktop/FinTech-Workspace/Starter_Code 2/loan_qualifier_app/app.py"
+  268  cd loan_qualifier_app
+  269  /usr/bin/python3 /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  270  clear
+  271  pip install fire
+  272  conda activate dev
+  273  import fire
+  274  pip install fire
+  275  clear
+  276  /usr/bin/python3 /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  277  pip install questionary
+  278  /usr/bin/python3 /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  279  clear
+  280  console.log(variable_name)
+  281  console.log(row)
+  282  console.log(save_qualifiying_loans)
+  283  clear
+  284  /usr/bin/python3 /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  285  pip install fire
+  286  pip install questionary
+  287  clear
+  288  conda activate dev
+  289  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  290  clear
+  291  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  292  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  293  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  294  clear
+  295  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  296  clear
+  297  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  298  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  299  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  300  clear
+  301  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  302  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  303  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  304  clear
+  305  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  306  clear
+  307  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  308  clear
+  309  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  310  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  311  clear
+  312  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  313  clear
+  314  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  315  clear
+  316  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  317  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
+  318  clear
+  319  /Users/Agnes/opt/anaconda3/envs/dev/bin/python /Users/Agnes/Desktop/loan_qualifier_app/app.py
