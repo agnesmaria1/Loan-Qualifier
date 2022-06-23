@@ -102,7 +102,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     print(f"Found {len(bank_data_filtered)} qualifying loans")
 
     return bank_data_filtered
-
+# Creating a list of qualifiying data to be export into csv file
 def save_csv(csvpath, data):
     header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"]
     with open(csvpath, "w", newline="") as csvfile:
@@ -120,7 +120,6 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
 
     ## Filter message user if they quailify for a loan
-    #def save_qualifying_loans(qualifying_loans):
 
     if not qualifying_loans:
         sys.exit("Sorry, there are no qualifying loans!")
