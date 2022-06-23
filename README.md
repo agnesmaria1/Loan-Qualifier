@@ -1,29 +1,44 @@
-# Loan Qualification
+# Loan Qualifier
 
-To help user and loan company finding the the right bank for their loan. This tool is user friendly, simple and easy to understand. User will also have the option to save the result for future reference.
+
+This a command-line interface application to help loan qualifier finding the the right bank for their loan. This tool is user friendly, simple and easy to understand. User will also have the option to save the result for future reference.
+
 
 # Technologies
 
-Python 3.7, Python Fire and Questionary, Anaconda 3, VS Code 1.67.2, Terminal, MacOS Monterey, GitHub
+This project leverages pythin 3.7 with the following packages:
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs.
 
 # Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Before running the application first install the following dependencies.
+
+```python
+  pip install fire
+  pip install questionary
+```
 
 ---
 
-## Usage
+# Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the loan qualifier application simply clone the repository and run the **app.py** with:
+
+```python
+python app.py
+```
 
 ---
 
-## Contributors
+# Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+This project is not possible without the help of my tutor Aarti, friend Tiania and instructor Kevin.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+
